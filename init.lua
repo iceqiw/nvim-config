@@ -1,14 +1,7 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.colorscheme"
-require "user.telescope"
-require "user.gitsigns"
-require "user.nvim-tree"
-require "user.lualine"
-require "user.toggleterm"
-require "user.project"
-require "user.impatient"
-require "user.alpha"
-require "user.autocommands"
-require "user.whichkey"
+-- bootstrap lazy.nvim, LazyVim and your plugins
+if vim.g.vscode then
+    -- VSCode extension
+    require('vscode')
+else
+    require("config.lazy")
+end
