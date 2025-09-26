@@ -1,5 +1,16 @@
 # Neovim
 
+## Pre install
+
+```
+brew install tree-sitter-cli
+brew install ripgrep
+brew install fd
+brew install lazygit
+brew install fzf
+
+```
+
 ## Get healthy
 
 Open `nvim` and enter the following:
